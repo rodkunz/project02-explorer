@@ -3,7 +3,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 
   background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
-  
+
   min-height: 100vh;
 
 }
@@ -13,6 +13,7 @@ body {
   margin: 0 auto;
   padding-top: 65px;
 }
+
 main {
   display: flex;
   align-items: center;
@@ -38,6 +39,7 @@ section p {
   font-size: 14px;
   line-height: 28px;
   margin: 40px 0;
+  margin-bottom: 60px;
 }
 
 
@@ -62,7 +64,7 @@ a {
   text-decoration: none;
 }
 
-ul li a{
+ul li a {
   opacity: 0.5;
 }
 
@@ -75,19 +77,19 @@ button {
   color: white;
   text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
-  
+
   background: #69B99D;
   border-radius: 4px;
   border: none;
   padding: 14px 32px 15px;
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 
   cursor: pointer;
-  
+
 }
 
 button:hover {
